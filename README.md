@@ -25,6 +25,6 @@ INSTRUCTIONS:
 3. Run! (needs python +3.7 and some libraries *)
 
 _Observations_:
-- This algorithm worked with HELLUKABEL and LAPP datasheets only
+- This algorithm worked well with HELLUKABEL and LAPP datasheets
 - A python interpreter and some libraries (matplotlib, pandas, fitz, numpy, scipy et al.) should be already installed and operative
 
