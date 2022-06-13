@@ -13,7 +13,7 @@ INPUTS: DATASHEET (a path to a existing pdf datasheet of a family of cables)
 OUTPUTS: a xy position and radius of each core (w_n) in the cable.
         a image plot of the respective 2D cross-section with (inner) insulation
 '''
-
+ 
 '''Inputs '''
 ## Indicate the datasheet file path in the pdf_read or keep it empty to use the standard file
 ## USE double-backward slash (\\) or a regular slash (/) as path separator
