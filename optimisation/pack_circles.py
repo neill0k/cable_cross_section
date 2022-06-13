@@ -1,4 +1,3 @@
-# import libraries
 import matplotlib.pyplot as plt
 import numpy as np
 from numpy.random import uniform as rand
@@ -253,7 +252,7 @@ def circle_packing(n_cores=None, out_diameter = 2, inner_radius=-1, cond_insulat
     if success: 
         print(f'SUCCESS!!! {res.message[0]} in {exec_time:.2f} s.\n ')
         
-        # Calculate hyperparameters
+        # Calculate extra parameters (hyperparameters)
         n_wires, A_wire, in_radius, cu_weight, cable_weight, outer_d, r_cond_insulation, flags = [i for i in var]
         # add data to df
         df = data_prep(out_radius, inner_radius, cond_insulation, *hyperparameters())

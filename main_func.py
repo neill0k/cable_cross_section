@@ -19,7 +19,8 @@ OUTPUTS: a xy position and radius of each core (w_n) in the cable.
 ## USE double-backward slash (\\) or a regular slash (/) as path separator
 pathfile = r"C:\Users\Documents\Cable_datasheet\YOUR_CABLE_CATALOG.pdf"
 DATASHEET = (Path(pathfile.replace('\\', '/'))).resolve() 
-DATASHEET = ''   # Empty entry
+# Uncomment line 23 to used standard datasheet file
+# DATASHEET = ''   # Empty entry
 SEARCH_CABLE_LAYOUT = '4 G 1.5'    # First number is number of cores, the letter is whether has or not GN conductor, last number is the cross-section of the core
 ## keep it empty to get a prompt message input
 # SEARCH_CABLE_LAYOUT = ''

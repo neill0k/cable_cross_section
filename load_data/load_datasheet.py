@@ -1,4 +1,4 @@
-''' These functions loads datasheet info from LAPP and organize the data.
+''' These functions loads datasheet info and organize the data.
 pdf_read(file):reads the cable parameters of the pdf-datasheet
 file: path directory and file name of the pdf
 returns database: the relevant data as pandas.DataFrame
